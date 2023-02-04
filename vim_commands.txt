@@ -1,0 +1,70 @@
+ESC normal mode
+i insert mode
+
+*normal mode
+
+**navigation 
+h left
+l right
+j down
+k up
+
+**word move
+w first char of next word
+b first char of previous word
+e last char of word
+
+**line move
+0 beginning of the line
+$ end of the line
+nG jump to line n
+
+**file move
+]] end of the file
+[[ beginning of file
+H top of the screen (visible on screen)
+L bottom of the screen (visible on screen)
+M middle of the screen (visible on screen)
+
+**change
+r replace char
+x cut char
+X cut char backspace mode
+p paste buffer before coursor
+P paste buffer after coursor
+y copy
+yy copy line
+u undo
+Ctrl+r redo
+dd delete line
+
+
+*insert mode
+
+i switch to insert mode
+a append after the current char
+o add line below and activate insert mode
+
+I go to beggining of the line and activate insert mode
+A got to end of the line and activate insert mode
+O add line above and activate insert mode
+
+*visual mode
+v activate visual mode
+
+*command mode
+: from normal mode
+:q quit
+:wq write and quit
+:q! force to quit
+:s subsitite/replace
+
+**split screen
+:vsplit <filename>
+Ctrl+w + <hjkl> move between screens
+:q close the screen
+
+*replace mode
+R activate replace mode
+this mode overwrites the stuff
+
